@@ -6,10 +6,33 @@
     border: none;
 }
 
-header  {
-    background: #fff;
-    position: fixed;
- }
+/* heading */
+
+.header {
+    background-color: #fafafa;
+    width: 100%;
+    top: 0px;
+    text-align: right;
+    font-size: 150%;
+    letter-spacing: 4px;
+    margin: 0;
+    height: 65px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    padding: 15px;
+}
+
+.logo {
+    float: left;
+    padding-left: 10px;
+}
+
+#header-text {
+    float: left;
+}
 
 body {
     font-family: Lato, sans-serif;
@@ -31,7 +54,7 @@ h1,h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #383535;
 }
 
 logo {
@@ -59,15 +82,21 @@ menu li {
 
 /* group of cyclists image */
 
-#group-of-cyclists {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+.group-of-cyclists {
     position: relative;
+    text-align: center;
+    color: #000000;
 }
 
-#group-of-cyclists-image {
-    height: 600px;
+#group-of-cyclists2 img {
     width: 100%;
-    background: url('../images/group-of-cyclists.jpg') no-repeat center center;
+    height: auto;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 800%;
 }

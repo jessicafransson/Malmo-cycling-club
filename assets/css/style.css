@@ -112,6 +112,15 @@ menu li {
     margin-left: -15px;
 }
 
+/* event page */
+
+.main-text {
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    padding-bottom: 1%;
+    letter-spacing: 1px;
+}
 /* page heros */
 .welcome {
     font-size: 800%;

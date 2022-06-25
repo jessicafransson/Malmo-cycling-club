@@ -92,6 +92,26 @@ menu li {
     height: auto;
 }
 
+/* Cafe page */
+
+.opening-hours {
+    width: 50%;
+    text-align: center;
+}
+
+.menu {
+    width: 50%;
+    text-align: center;
+}
+
+.body {
+    text-align: center;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 /* page heros */
 .welcome {
@@ -112,10 +132,22 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.latte-art {
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+}
+
 .cyclists-home
 {
     background-image: url("../images/group-of-cyclists.jpg");
     }
+
+.latte-art {
+    background-image: url("../images/latte-art.jpg");
+}   
 
 .coffee-cafe {
     background-image: url(../images/coffee-roast.jpg);
@@ -131,9 +163,10 @@ background-size: cover;
 
 /* Footer section */
 
-footer {
+#footer {
     clear: both;
     height: 100px;
+    text-align: center;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -184,6 +217,7 @@ input[type=text], select, textarea {
         width: 56px;
         display: inline-block;
         margin: 10px;
+        text-align: center;
         
   }
 

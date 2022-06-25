@@ -93,6 +93,25 @@ menu li {
 
 /* Cafe page */
 
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    float: left;
+  }
+
+  .left {
+    width: 25%;
+    padding-top: 10%;
+  }
+
+  .right {
+    width: 75%;
+    padding-top: 10%;
+  }
+
 .opening-hours {
     width: 50%;
     text-align: center;
@@ -223,11 +242,10 @@ input[type=text], select, textarea {
 
   .container {
     border-radius: 5px;
-    background-color: #fafafa;
+    background-color: #ffffff;
     padding: 80px;
     max-width: 1170px;
     margin: auto;
-    git add 
   }
 
   .twocol {

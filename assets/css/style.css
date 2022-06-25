@@ -23,11 +23,15 @@ nav {
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
     padding: 15px;
+    text-align: center;
 }
 
 .logo {
     float: left;
     padding-left: 10px;
+    margin-left: 30px;
+    position: relative;
+    top: 20px;
 }
 
 #header-text {
@@ -56,11 +60,6 @@ h1,h2 {
     color: #383535;
 }
 
-logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-}
 
 /* navigation links */
 
@@ -169,19 +168,32 @@ background-size: cover;
     text-align: center;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+#social-text {
+    padding-bottom: 30px;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 1px;
+    color: #000000;
+}
+
+/* Styling the text areas for subscribtion */
+
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
   }
-  
-  /* Style the submit button with a specific background color etc */
+
+  /* submit button style*/
+
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -191,12 +203,13 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+  /* Hover over submit button style */
+
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #3f3f3f;
   }
   
-  /* Add a background color and some padding around the form */
+
   .container {
     border-radius: 5px;
     background-color: #fafafa;
@@ -213,12 +226,10 @@ input[type=text], select, textarea {
   }
 
   #footer a {
-        height: 56px;
-        width: 56px;
+        height: 20px;
+        width: 20px;
         display: inline-block;
-        margin: 10px;
-        text-align: center;
-        
+        margin: 20px;
   }
 
   #footer a:hover {

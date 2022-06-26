@@ -9,14 +9,14 @@
 /* heading */
 
 .header {
-    background-color: #fafafa;
+    background-color: #000000;
     width: 100%;
     top: 0px;
     text-align: right;
-    font-size: 150%;
-    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: 700;
     margin: 0;
-    height: 65px;
+    position: sticky;
 }
 
 .overlay {
@@ -28,8 +28,29 @@
 nav {
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
-    padding: 15px;
+    padding: 24px;
     text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 24px;
+    color: #fafafa;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    color: rgb(0, 166, 255);
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .logo {
@@ -38,10 +59,11 @@ nav {
     margin-left: 30px;
     position: relative;
     top: 20px;
+    width: 128px;
 }
 
-#header-text {
-    float: left;
+a .logo:hover {
+    fill: rgb(0, 166, 255);
 }
 
 /* body */
@@ -56,11 +78,13 @@ a {
     color: #000000;
 }
 
+
 p {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 16px;
     padding: 0px 10px 10px 10px;
+    line-height: 1.6em;
 }
 
 h1,h2 {
@@ -198,9 +222,8 @@ background-size: cover;
     clear: both;
 }
 
-.cyclists-home
-{
-    background-image: url("../images/group-of-cyclists.jpg");
+.cyclists-home {
+    background-image: url("../images/cyclists-rapha.jpg");
     }
 
 .latte-art {
@@ -255,18 +278,33 @@ input[type=submit] {
 footer {
     position: relative;
     clear: both;
-    height: 100px;
     text-align: center;
     bottom: 0;
     width: 100%;
     display: inline-block;
-    height: 1.5em;
     margin: auto;
     letter-spacing: 5px;
+    background-color: #000000;
+    color: #fafafa;
+    padding: 64px 0px 64px 0px;
 }
 
-#social-text {
-    padding-bottom: 30px;
+footer a {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: rgb(255, 253, 255);
+}
+
+footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    color: rgb(0, 166, 255);
+    }    
+
+.social-text {
+    padding-top: 24px;
 }
 
 .social-networks i{
@@ -280,14 +318,5 @@ footer {
     padding-bottom: 2.5rem; 
   }
 
-footer a{
-    padding: 24px;
-    color: rgb(43, 41, 43);
-}
 
-footer a:hover {
-transition: all 0.3s ease-out;
--webkit-transition: all 0.3s ease-out;
-color: rgba(49, 82, 91, 0.345);
-}
 

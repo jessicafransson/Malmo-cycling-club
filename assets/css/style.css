@@ -44,6 +44,8 @@ nav {
     float: left;
 }
 
+/* body */
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -55,9 +57,9 @@ a {
 }
 
 p {
-    font-size: 200%;
-    text-align: center;
+    font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 16px;
 }
 
 h1,h2 {
@@ -169,14 +171,6 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.latte-art {
-    max-width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: right;
-    border-radius: 10px;
-}
-
 /* column styling */
 
 .column {
@@ -212,26 +206,6 @@ background-size: cover;
     background-image: url(../images/legs-profile-cyclist.jpg);
 }
 
-/* Footer section */
-
-#footer {
-    clear: both;
-    height: 100px;
-    text-align: center;
-}
-
-
-
-#social-text {
-    padding-bottom: 30px;
-}
-
-.social-networks i{
-    font-size: 200%;
-    margin: 1%;
-    padding: 1px;
-    color: #000000;
-}
 
 /* Styling the text areas for subscribtion */
 
@@ -262,38 +236,44 @@ input[type=submit] {
   input[type=submit]:hover {
     background-color: #3f3f3f;
 }
-  
-  /* Social media */
+
+/* Footer section */
+
+footer {
+    position: relative;
+    clear: both;
+    height: 100px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    height: r.5rem;
+    margin: auto;
+}
+
+#social-text {
+    padding-bottom: 30px;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin: 1%;
+    padding: 1px;
+    color: #000000;
+}
 
 .content-wrap {
     padding-bottom: 2.5rem; 
   }
 
-
-/* footer */
-
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: r.5rem;
-    display: inline-block;
-    margin: auto;
-    text-align: center;
-}
-
 footer a{
     padding: 24px;
-    color: magenta;
+    color: rgb(43, 41, 43);
 }
 
 footer a:hover {
 transition: all 0.3s ease-out;
 -webkit-transition: all 0.3s ease-out;
-color: rgb(255, 247, 0);
+color: rgba(49, 82, 91, 0.345);
 }
 
-
-
-
- 

@@ -262,6 +262,7 @@ footer {
     display: inline-block;
     height: 1.5em;
     margin: auto;
+    letter-spacing: 5px;
 }
 
 #social-text {

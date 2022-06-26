@@ -141,6 +141,12 @@ menu li {
     margin-bottom: 20px;
 }
 
+.latte {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
 /* event page */
 
 .main-text {

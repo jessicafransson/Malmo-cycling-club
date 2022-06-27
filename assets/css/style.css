@@ -198,6 +198,18 @@ menu li {
     border-radius: 2%;
 }
 
+.roadcycling {
+    width: 400px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.roadies {
+    width: 400px;
+    height: 300px;
+    border-radius: 2%;
+}
+
 /* event page */
 
 .main-text {

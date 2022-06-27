@@ -166,17 +166,35 @@ menu li {
     border-radius: 2%;
 }
 
+.barista {
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+}
+
 /* cycling images */
 
 .female {
-    width: 300px;
+    width: 400px;
     height: 400px;
     border-radius: 1%;
 }
 
 .backwheel {
-    width: 300px;
+    width: 400px;
     height: 400px;
+    border-radius: 2%;
+}
+
+.landscape {
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+.race {
+    width: 400px;
+    height: 300px;
     border-radius: 2%;
 }
 

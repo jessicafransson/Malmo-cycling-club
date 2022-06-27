@@ -241,6 +241,12 @@ background-size: cover;
     background-image: url(../images/legs-profile-cyclist.jpg);
 }
 
+/* contact page */
+
+.contact li {
+    list-style-type: none;
+    padding: 16px 0px 16px 0px;
+}
 
 /* Styling the text areas for subscribtion */
 

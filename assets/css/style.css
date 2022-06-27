@@ -42,7 +42,7 @@ nav a {
 nav a:hover {
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
-    color: rgb(0, 166, 255);
+    color: rgb(92, 131, 150);
 }
 
 
@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 a .logo:hover {
-    fill: rgb(0, 166, 255);
+    fill: rgb(92, 131, 150);
 }
 
 /* body */
@@ -274,7 +274,7 @@ input[type=submit] {
   /* Hover over submit button style */
 
   input[type=submit]:hover {
-    background-color: #3f3f3f;
+    background-color: rgb(92, 131, 150);
 }
 
 /* Footer section */
@@ -304,7 +304,7 @@ footer a {
 footer a:hover {
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
-    color: rgb(0, 166, 255);
+    color: rgb(92, 131, 150);
     }    
 
 .social-text {

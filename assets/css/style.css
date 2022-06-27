@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 
 * {
     margin: 0;
@@ -14,7 +14,6 @@
     top: 0px;
     text-align: right;
     font-size: 18px;
-    font-weight: 700;
     margin: 0;
     position: sticky;
 }
@@ -80,17 +79,20 @@ a {
 
 p {
     font-size: 1.2em;
-    font-weight: bold;
     margin-bottom: 16px;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 0px;
     line-height: 1.6em;
 }
 
 h1,h2 {
-    font-family: Oswald, sans-serif;
+    font-family: Lato, sans-serif;
     letter-spacing: 4px;
     color: #383535;
-    padding: 0px 10px 10px 10px;
+    padding: 0px 10px 10px 0px;
+}
+
+h1 {
+    font-weight: bold;
 }
 
 /* navigation links */
@@ -114,11 +116,6 @@ menu li {
 
 .row {
     display: flex;
-  }
-  
-  .column {
-    flex: 50%;
-    float: left;
   }
 
   .left {
@@ -152,62 +149,21 @@ menu li {
     margin-bottom: 20px;
 }
 
-/* coffee pictures */
-
-.latte {
-    width: 300px;
-    height: 300px;
-    border-radius: 2%;
+.cafe li {
+    list-style-type: none;
+    padding: 16px 0px 16px 0px;
+    border-bottom: 1px solid black;
 }
 
-.espresso {
-    width: 300px;
-    height: 300px;
-    border-radius: 2%;
+.cafe {
+    padding-bottom: 24px;
+    font-size: 18px;
 }
 
-.barista {
-    width: 300px;
-    height: 300px;
-    border-radius: 2%;
-}
+/* row images */
 
-/* cycling images */
-
-.female {
-    width: 400px;
-    height: 400px;
-    border-radius: 1%;
-}
-
-.backwheel {
-    width: 400px;
-    height: 400px;
-    border-radius: 2%;
-}
-
-.landscape {
-    width: 300px;
-    height: 300px;
-    border-radius: 2%;
-}
-
-.race {
-    width: 400px;
-    height: 300px;
-    border-radius: 2%;
-}
-
-.roadcycling {
-    width: 400px;
-    height: 300px;
-    border-radius: 2%;
-}
-
-.roadies {
-    width: 400px;
-    height: 300px;
-    border-radius: 2%;
+.row img {
+    width: 100%;
 }
 
 /* event page */
@@ -221,11 +177,21 @@ menu li {
     margin-right: 15px;
     margin-left: 15px;
 }
+.events li {
+    list-style-type: none;
+    padding: 16px 0px 16px 0px;
+    border-bottom: 1px solid black;
+}
+
+.events {
+    padding-bottom: 24px;
+    font-size: 18px;
+}
 
 /* page heros */
 
 .welcome {
-    font-size: 800%;
+    font-size: 96px;
     vertical-align: -webkit-baseline-middle;
     text-align: center;
     position: relative;
@@ -244,7 +210,7 @@ background-size: cover;
 /* column styling */
 
 .column {
-    padding: 10px;
+    padding: 24px;
     width: 50%;
     float: left;
 }
@@ -324,7 +290,6 @@ footer {
 
 footer a {
     font-size: 32px;
-    font-weight: 400;
     margin-bottom: 24px;
     padding: 24px;
     color: rgb(255, 253, 255);

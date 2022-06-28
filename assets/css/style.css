@@ -61,10 +61,6 @@ nav a:hover {
     width: 128px;
 }
 
-a .logo:hover {
-    fill: rgb(92, 131, 150);
-}
-
 /* body */
 
 body {
@@ -274,7 +270,7 @@ input[type=submit] {
   
   /* Hover over submit button style */
 
-  input[type=submit]:hover {
+  input:hover {
     background-color: rgb(92, 131, 150);
 }
 
@@ -322,5 +318,46 @@ footer a:hover {
     padding-bottom: 2.5rem; 
   }
 
+/* media rules */
 
+/* For larger screens, medium size from 950px and down*/
 
+@media screen and (max-width: 950px) {
+
+        .menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
+
+        .row img {
+            float: left;
+            width: ;
+        }
+
+        .column {
+            width: 60%;
+            float: left;
+            line-height: 20px;
+            clear: both;
+            margin-bottom: 50px;
+        }
+
+        .welcome {
+            left: 0;
+        }
+
+        .container {
+            width: 90%;
+            height: 1200px;
+            margin: auto;
+        }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) 
+    .photos {
+        column-count: 3;
+    }

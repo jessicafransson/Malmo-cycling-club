@@ -16,6 +16,7 @@
     font-size: 18px;
     margin: 0;
     position: sticky;
+    z-index: 1;
 }
 
 .overlay {
@@ -334,7 +335,7 @@ footer a:hover {
 
         .row img {
             float: left;
-            width: ;
+            width: 100%;
         }
 
         .column {
@@ -355,9 +356,3 @@ footer a:hover {
             margin: auto;
         }
 }
-
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) 
-    .photos {
-        column-count: 3;
-    }

@@ -28,7 +28,7 @@
 nav {
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
-    padding: 24px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -49,8 +49,6 @@ nav a:hover {
 .container {
     max-width: 1170px;
     margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .logo {
@@ -113,6 +111,8 @@ menu li {
 
 .row {
     display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .left {
@@ -360,9 +360,19 @@ footer a:hover {
 
    .column {
         width: 100%;
+        padding: 0;
+        padding-bottom: 24px;
    }
 
-   .row{
+   .row {
     display: block;
    }
+
+.welcome {
+    font-size: 48px;
+   }
+
+.header li a {
+    padding: 20px 30px;
+}
 }

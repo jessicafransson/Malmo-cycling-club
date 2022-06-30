@@ -219,7 +219,7 @@ background-size: cover;
 }
 
 .cyclists-home {
-    background-image: url("../images/cyclists-rapha1-figma.jpg");
+    background-image: url("../images/cyclists-rapha.jpg");
     }
 
 .latte-art {
@@ -227,15 +227,15 @@ background-size: cover;
 }   
 
 .coffee-cafe {
-    background-image: url(../images/coffee-roast1-figma.jpg);
+    background-image: url("../images/coffee-roast.jpg");
 }
 
 .contact-page {
-    background-image: url('../images/cyclists-uphill-figma.jpg');
+    background-image: url('../images/cyclists-uphill.jpg');
 }
 
 .event-calender {
-    background-image: url(../images/legs-profile-cyclist1-figma.jpg);
+    background-image: url(../images/legs-profile.cyclist.jpg);
 }
 
 /* contact page */

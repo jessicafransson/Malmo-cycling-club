@@ -29,6 +29,7 @@ nav {
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
     padding: 20px;
+    text-align: center;
 }
 
 nav a {

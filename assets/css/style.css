@@ -23,13 +23,12 @@ header {
     background: rgba(50, 70, 80, 0.7);
     overflow: hidden;
     height: 100%;
-   }
+}
 
 nav {
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
     padding: 20px;
-    text-align: center;
 }
 
 nav a {
@@ -79,7 +78,8 @@ p {
     line-height: 1.6em;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: Lato, sans-serif;
     letter-spacing: 4px;
     color: #383535;
@@ -103,7 +103,8 @@ menu li {
     margin-right: 30px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -113,17 +114,17 @@ menu li {
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
-  }
+}
 
-  .left {
+.left {
     width: 25%;
     padding-top: 10%;
-  }
+}
 
-  .right {
+.right {
     width: 75%;
     padding-top: 10%;
-  }
+}
 
 .opening-hours {
     width: 50%;
@@ -174,6 +175,7 @@ menu li {
     margin-right: 15px;
     margin-left: 15px;
 }
+
 .events li {
     list-style-type: none;
     padding: 16px 0px 16px 0px;
@@ -197,11 +199,11 @@ menu li {
 }
 
 .hero-image {
-height: 800px;
-display: block;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+    height: 800px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* column styling */
@@ -220,11 +222,11 @@ background-size: cover;
 
 .cyclists-home {
     background-image: url("../images/cyclists-rapha2.jpg");
-    }
+}
 
 .latte-art {
     background-image: url("../images/latte-art.jpg");
-}   
+}
 
 .coffee-cafe {
     background-image: url("../images/coffee-roast3.jpeg");
@@ -247,18 +249,20 @@ background-size: cover;
 
 /* Styling the text areas for subscribtion */
 
-input[type=text], select, textarea {
-    width: 100%; 
+input[type=text],
+select,
+textarea {
+    width: 100%;
     padding: 12px;
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
     resize: vertical;
 }
 
-  /* submit button style*/
+/* submit button style*/
 
 input[type=submit] {
     background-color: #04AA6D;
@@ -268,10 +272,10 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
-  /* Hover over submit button style */
 
-  input:hover {
+/* Hover over submit button style */
+
+input:hover {
     background-color: rgb(92, 131, 150);
 }
 
@@ -302,13 +306,13 @@ footer a:hover {
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
     color: rgb(92, 131, 150);
-    }    
+}
 
 .social-text {
     padding-top: 24px;
 }
 
-.social-networks i{
+.social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 1px;
@@ -316,8 +320,8 @@ footer a:hover {
 }
 
 .content-wrap {
-    padding-bottom: 2.5rem; 
-  }
+    padding-bottom: 2.5rem;
+}
 
 /* media rules */
 
@@ -325,58 +329,58 @@ footer a:hover {
 
 @media screen and (min-width: 800px) {
 
-        .menu {
-            clear: left;
-            float: left;
-            margin-left: 30px;
-            margin-bottom: 20px;
-            line-height: 25px;
-        }
+    .menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
-        .row img {
-            float: left;
-            width: 100%;
-        }
+    .row img {
+        float: left;
+        width: 100%;
+    }
 
-        .column {
-            float: left;
-            line-height: 20px;
-            clear: both;
-            margin-bottom: 50px;
-        }
+    .column {
+        float: left;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+    }
 
-        .welcome {
-            left: 0;
-        }
+    .welcome {
+        left: 0;
+    }
 
-        .container {
-            height: 1200px;
-            margin: auto;
-        }
+    .container {
+        height: 1200px;
+        margin: auto;
+    }
 }
 
 /* For mobile screens */
 @media screen and (max-width: 480px) {
 
-   .column {
+    .column {
         width: 100%;
         padding: 0;
         padding-bottom: 24px;
-   }
+    }
 
-   .row {
-    display: block;
-   }
+    .row {
+        display: block;
+    }
 
-.welcome {
-    font-size: 48px;
-   }
+    .welcome {
+        font-size: 48px;
+    }
 
-header li a {
-    padding: 20px 30px;
-}
+    header li a {
+        padding: 20px 30px;
+    }
 
-header {
-    text-align: left;
-}
+    header {
+        text-align: left;
+    }
 }

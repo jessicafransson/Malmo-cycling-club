@@ -89,7 +89,7 @@ The live website can be found here; [MalmoCC](https://jessicafransson.github.io/
 - ### The viewer can also get information of weekdays and what kind of rides.
 - ### The viewer will see a photo of 3 female cyclists chatting.
 
-![Ride with us](md/malmocc-ridewithus.png "Info about ride with us")
+![Ride with us](md/ride-with-us.jpg "Info about ride with us")
 
 ## Event information
 

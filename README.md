@@ -2,9 +2,9 @@
 
 ## Overview of project 
 
-### Malmö cycling club is a website where you can get in touch with other cyclists in and around malmö. Participate in group rides and find information about upcoming events. There's also links to their social medias, and you can subscribe to their newsletter to not miss the latest information about the club and events. There's also a café connected to them and there's information about their opening hours and what they have to offer. 
+### Malmö cycling club is a website for people looking to connect with other cyclists in and around Malmö. The user can connect to the cycling club via social medias displayed, and sign up for the newsletter. The user can check out the different rides and events made by the cycling club, and can find information about the clubs café. 
 
-The live website can be found here; [MalmoCC] (https://jessicafransson.github.io/project-one/)
+The live website can be found here; [MalmoCC](https://jessicafransson.github.io/Malmo-cycling-club/)
 
 ![different screen sizes](md/malmoccMD.png "This is the mockup")
 
@@ -14,10 +14,11 @@ The live website can be found here; [MalmoCC] (https://jessicafransson.github.io
 
 ### As a user i want to:
 - ### Learn about this cycling club
-- ### Find information about their events and rides
+- ### Find information about their rides and events.
 - ### Be able to get connected with them via the newsletter
 - ### Find out how to connect with them on social media
 - ### Access the website on both mobile and desktop
+- ### See information about their café.
 
 # Features
 
@@ -170,14 +171,9 @@ The live website can be found here; [MalmoCC] (https://jessicafransson.github.io
 # Credits
 
 - ### Support and documentation in W3 Schools
-- ### Icons from Font awesome 
-- ### Images from Unsplash and photografer David
+- ### Icons from Font awesome (https://fontawesome.com/)
+- ### Images from Unsplash and photografer David (https://unsplash.com/@dafidvor)
 - ### Images edited in Figma
-- ### Mockup made in figma
-- ### Favicon from favicon website
-
-
-Favicon from https://www.favicon.cc/?action=icon&file_id=862100
-mockup from here: http://techsini.com/multi-mockup/index.php
-images from unsplash credit David Dvoracek: https://unsplash.com/@dafidvor
-mockup from figma of project: https://www.figma.com/file/70WZYH1LUx3VQbB5DW9YJo/mockup-mcc
+- ### Wireframe mockup made in Figma (https://www.figma.com/file/70WZYH1LUx3VQbB5DW9YJo/mockup-mcc)
+- ### Favicon from favicon website (https://favicon.io/)
+- ### Mockup from Techsini: (http://techsini.com/multi-mockup/index.php)

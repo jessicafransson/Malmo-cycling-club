@@ -147,6 +147,10 @@ The live website can be found here; [MalmoCC](https://jessicafransson.github.io/
 
 - ### Colors have enough contrast and is easy to read
 
+## Devices
+
+- ### website has been tested on Macbook air, Iphone and Samsung S10+
+
 ## Desktop
 
 ![Screenshot accesibility desktop](md/malmocc-validate-desktop.png "Desktop validator")
@@ -154,6 +158,14 @@ The live website can be found here; [MalmoCC](https://jessicafransson.github.io/
 ## Mobile
 
 ![Screenshot accesibility mobile](md/malmocc-validate-mobile.jpeg "Mobile validator")
+
+# Bugs and errors
+
+## Solved
+- ### When running the website thru accesibility i got a scoring of 70% due to size of images, i solved this by changing the sizes of all images in figma, and replacing them in gitpod.
+
+## Unsolved
+- ### No unsolved bugs.
 
 # Deployment
 
@@ -172,13 +184,21 @@ The live website can be found here; [MalmoCC](https://jessicafransson.github.io/
 - ### Click the "fork button" in the top right corner.
 - ### When you navigate to your fork you will find the project and above the list of files you click "code"
 
+# Future additions
+
+## This is what i would add in the following steps to the website:
+
+- ### Create routes to the events, and link them to the following platform to be displayed.
+- ### Add a map of a fixed location where the cycling club and café would be located.
+- ### Add a sign up form to the events for visitors to sign up.
+
 
 # Credits
 
 - ### Support and documentation in W3 Schools
 - ### Icons from Font awesome (https://fontawesome.com/)
-- ### Images from Unsplash and photografer David (https://unsplash.com/@dafidvor)
 - ### Images edited in Figma
 - ### Wireframe mockup made in Figma (https://www.figma.com/file/70WZYH1LUx3VQbB5DW9YJo/mockup-mcc)
 - ### Favicon from favicon website (https://favicon.io/)
 - ### Mockup from Techsini: (http://techsini.com/multi-mockup/index.php)
+- ### Images from [Unsplash](https://unsplash.com/@dafidvor)

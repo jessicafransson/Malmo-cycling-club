@@ -188,6 +188,10 @@ menu li {
     font-size: 18px;
 }
 
+iframe {
+    padding-bottom: 24px;
+}
+
 /* page heros */
 
 .welcome {

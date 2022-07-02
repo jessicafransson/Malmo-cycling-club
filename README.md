@@ -153,11 +153,11 @@ The live website can be found here; [MalmoCC](https://jessicafransson.github.io/
 
 ## Desktop
 
-![Screenshot accesibility desktop](md/malmocc-validate-desktop.png "Desktop validator")
+![Screenshot accesibility desktop](md/malmoccdesktopvalidator.jpeg "Desktop validator")
 
 ## Mobile
 
-![Screenshot accesibility mobile](md/malmocc-validate-mobile.jpeg "Mobile validator")
+![Screenshot accesibility mobile](md/malmocc-mobilevalidator.jpeg "Mobile validator")
 
 # Bugs and errors
 

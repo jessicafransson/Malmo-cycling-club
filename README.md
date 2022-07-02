@@ -166,6 +166,11 @@ The live website can be found here; [MalmoCC](https://jessicafransson.github.io/
 
 ## Local Deployment
 
+### To locally make a copy of this project on another computer follow these steps: 
+
+- ### Locate the repository of the project you would like to copy.
+- ### Click the "fork button" in the top right corner.
+- ### When you navigate to your fork you will find the project and above the list of files you click "code"
 
 
 # Credits

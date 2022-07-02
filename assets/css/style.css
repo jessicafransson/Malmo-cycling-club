@@ -292,7 +292,7 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-    display: inline-block;
+    display: block;
     margin: auto;
     letter-spacing: 5px;
     background-color: #000000;
@@ -359,7 +359,6 @@ footer a:hover {
     }
 
     .container {
-        height: 1200px;
         margin: auto;
     }
 }

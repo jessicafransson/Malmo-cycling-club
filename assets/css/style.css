@@ -387,4 +387,14 @@ footer a:hover {
     header {
         text-align: left;
     }
+
+    .logo {
+        display: block;
+        position: relative;
+        top: 20px;
+        margin: auto;
+        width: 128px;
+        margin-bottom: 8px;
+        float: none;
+    }
 }
